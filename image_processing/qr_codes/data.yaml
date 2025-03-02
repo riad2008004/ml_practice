@@ -1,0 +1,12 @@
+train: E:/Codes/machine_learning/image_processing/qr_codes/train/images
+val: E:/Codes/machine_learning/image_processing/qr_codes/test/images
+
+nc: 1
+names: ['QR_CODE']
+
+roboflow:
+  workspace: lihang-xu
+  project: qr-code-oerhe
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lihang-xu/qr-code-oerhe/dataset/2
